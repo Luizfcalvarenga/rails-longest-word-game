@@ -1,0 +1,61 @@
+// Place all the styles related to the Games controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: https://sass-lang.com/
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,300;0,400;1,300&display=swap');
+
+.container {
+  margin-left: 50px;
+}
+
+body {
+  background-color: rgb(204,213,174);
+}
+
+.btn {
+  font-family: 'Josefin Sans';
+}
+h1 {
+  font-family: 'Josefin Sans';
+  margin-top: 50px;
+}
+ .letters {
+  list-style: none;
+  width: 50%;
+  display: grid;
+  grid-template-columns: repeat(10, 1fr);
+  grid-gap: 20px;
+  align-items: center;
+  padding-left: 0;
+}
+
+.letter {
+  background-color: #46acff;
+  padding: 20px;
+  justify-self: center;
+  color: #fff;
+  font-weight: bold;
+  font-size: 20px;
+  box-shadow: 0 0 0.5em grey;
+}
+
+.instructions {
+  margin-top: 40px;
+  font-family: 'Josefin Sans';
+}
+
+.score {
+  font-family: 'Josefin Sans';
+}
+
+.result {
+  font-family: 'Josefin Sans';
+}
+
+a {
+  font-family: 'Josefin Sans';
+  text-decoration: none;
+  color: black;
+  &:hover {
+    color: blue;
+  }
+}
